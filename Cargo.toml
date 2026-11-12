@@ -1,0 +1,11 @@
+[package]
+name = "equinox-stall-2"
+version = "0.1.0"
+edition = "2021"
+default-run = "equinox-stall-2"
+
+[dependencies]
+macroquad = "0.4"
+
+[profile.dev]
+opt-level = 2
